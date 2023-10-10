@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svetafor {
+    width: 40%;
+    height: 650px;
+    background: #000;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.rounded {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 100%;
+}
+
+.rounded:nth-child(1) {
+    background: red;
+}
+
+.rounded:nth-child(2) {
+    background: yellow;
+}
+
+.rounded:nth-child(3) {
+    background: green;
+}
